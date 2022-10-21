@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { SearchContext } from '../context/SearchContext';
 
 function SearchBar() {
-    let {term, handleSearch} = useContext(SearchContext)
+    const {term, handleSearch} = useContext(SearchContext)
 
     return (
         <form>
